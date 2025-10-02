@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">MyRuns</string>
 
-    <string name="profile_photo">Profile Photo:</string>
     <string name="profile_picture">User profile picture</string>
     <string name="change">Change</string>
 
@@ -26,4 +25,32 @@
 
     <string name="save">Save</string>
     <string name="cancel">Cancel</string>
+
+    <string-array name="input_type_array">
+        <item>Manual Entry</item>
+        <item>GPS</item>
+        <item>Automatic</item>
+    </string-array>
+
+    <string-array name="activity_type_array">
+        <item>Running</item>
+        <item>Walking</item>
+        <item>Standing</item>
+        <item>Cycling</item>
+        <item>Hiking</item>
+        <item>Downhill Skiing</item>
+        <item>Cross-Country Skiing</item>
+        <item>Snowboarding</item>
+        <item>Skating</item>
+        <item>Swimming</item>
+        <item>Mountain Biking</item>
+        <item>Wheelchair</item>
+        <item>Elliptical</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="unit_preference_items">
+        <item>Metric (Kilometres)</item>
+        <item>Imperial (Miles)</item>
+    </string-array>
 </resources>
